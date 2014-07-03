@@ -1,0 +1,25 @@
+{
+  "name": "contain",
+  "version": "0.0.0",
+  "description": "Restrict content to within a target container using letterboxing or pillarboxing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/contain.git"
+  },
+  "keywords": [
+    "letterbox",
+    "pillarbox",
+    "contain",
+    "boundingbox"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/contain/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/contain"
+}
