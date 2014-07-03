@@ -4,7 +4,8 @@
   "description": "Restrict content to within a target container using letterboxing or pillarboxing",
   "main": "index.js",
   "scripts": {
-    "test": "node test/all.js"
+    "test": "node test/all.js",
+    "gendocs": "gendocs > README.md"
   },
   "stability": "unstable",
   "repository": {
