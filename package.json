@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/DamonOehlman/contain/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/contain"
+  "homepage": "https://github.com/DamonOehlman/contain",
+  "devDependencies": {
+    "tape": "^2.13.3"
+  }
 }
