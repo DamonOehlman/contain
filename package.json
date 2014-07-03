@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/DamonOehlman/contain",
   "devDependencies": {
+    "cog": "^1.0.0",
     "tape": "^2.13.3"
   }
 }
