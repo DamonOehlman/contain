@@ -1,6 +1,6 @@
 {
   "name": "contain",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Restrict content to within a target container using letterboxing or pillarboxing",
   "main": "index.js",
   "scripts": {
