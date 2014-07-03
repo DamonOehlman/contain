@@ -10,12 +10,22 @@
 
   To be completed.
 
-**/
-module.exports = function(container, target) {
+  ## Reference
 
-  function contain(target) {
+  ### `contain(container, => subject) => result`
+
+  Given the supplied `container` and `subject` bounds, determine the maximum
+  `result` bounds in which the subject can be displayed within the container
+  without distorting the aspect ratio.
+
+  All bounds are provided in the format of `[x, y, width, height]`
+
+**/
+module.exports = function(container, subject) {
+
+  function contain(subject) {
     return [];
   }
 
-  return target ? contain(target) : contain;
+  return subject ? contain(subject) : contain;
 };

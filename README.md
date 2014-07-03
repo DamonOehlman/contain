@@ -14,6 +14,16 @@ aspect ratio.
 
 To be completed.
 
+## Reference
+
+### `contain(container, => subject) => result`
+
+Given the supplied `container` and `subject` bounds, determine the maximum
+`result` bounds in which the subject can be displayed within the container
+without distorting the aspect ratio.
+
+All bounds are provided in the format of `[x, y, width, height]`
+
 ## License(s)
 
 ### MIT
